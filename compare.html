@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Compare premiums, coverage limits, deductibles, and exclusions for two fictional Dallas print shop quotes.">
+<title>Compare sample quotes — QuoteSide</title>
+<link rel="icon" href="./assets/mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./assets/site.css">
+<script defer src="./assets/site.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top wrap">
+  <a class="brand" href="./index.html" aria-label="QuoteSide home"><img src="./assets/mark.svg" alt="" width="34" height="34">QuoteSide</a>
+  <nav aria-label="Main"><a href="./index.html">Overview</a><a href="./compare.html" aria-current="page">Sample quotes <span aria-hidden="true">↗</span></a></nav>
+</header>
+<main id="main">
+  <section class="wrap compare-intro" aria-labelledby="compare-title">
+    <h1 id="compare-title">Compare the quotes.</h1>
+    <p>Trinity Print House is a fictional Dallas print shop that owns its building and depends on its presses to fill orders. The shop is comparing two fictional annual property insurance quotes for the same location. Read across each row to see what changes, then use the explanations to plan what to ask a broker.</p>
+  </section>
+  <section class="wrap comparison" id="quote-table" aria-labelledby="table-title">
+    <div class="table-tools">
+      <div><h2 id="table-title">Coverage at a glance</h2><p id="row-status" role="status">Fictional quotes · annual terms</p></div>
+      <label class="toggle" hidden><input id="diff-toggle" type="checkbox" role="switch"><span>Show differences only</span></label>
+    </div>
+    <table class="quote-table" hidden>
+      <caption class="visually-hidden">Fictional insurance terms for Trinity Print House</caption>
+      <colgroup><col class="term-col"><col class="value-col"><col class="value-col"></colgroup>
+      <thead><tr><th scope="col">Quote term</th><th scope="col"><span>Quote A</span>Prairie Ledger</th><th scope="col"><span>Quote B</span>Oakline Mutual</th></tr></thead>
+      <tbody id="quote-rows"></tbody>
+    </table>
+    <noscript><p>Enable JavaScript to view and filter the sample quotes.</p></noscript>
+  </section>
+  <section class="broker" aria-labelledby="broker-title">
+    <div class="wrap broker-inner">
+      <div><h2 id="broker-title">Ask your broker</h2><p>Use the actual policy wording and endorsements to confirm how each quote would respond.</p></div>
+      <ul>
+        <li>Can you show what we’d pay out of pocket for a covered hail claim?</li>
+        <li>How was the business income limit estimated, and what waiting period applies?</li>
+        <li>What counts as cosmetic roof damage? Can we add flood coverage or change the roof exclusion?</li>
+      </ul>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap footer-inner"><strong>QuoteSide</strong><p>ITOM 6216 · Lab 5 · All businesses and quotes shown are fictional.</p></div></footer>
+<div id="quote-chat"></div>
+</body>
+</html>
