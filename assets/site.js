@@ -115,7 +115,7 @@ if (video) {
 const chat = document.querySelector("#quote-chat");
 if (chat) {
   chat.innerHTML = `
-    <button class="button chat-launch" type="button" aria-expanded="false" aria-controls="chat-panel">
+    <button class="button chat-launch" type="button" aria-label="Ask about quotes" aria-expanded="false" aria-controls="chat-panel">
       <svg aria-hidden="true" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v12H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg>
       Ask about quotes
     </button>

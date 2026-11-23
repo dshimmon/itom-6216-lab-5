@@ -128,3 +128,19 @@
   .samples .comparison { padding: 16px 0 0; }
   .samples .table-tools { padding-inline: 12px; }
 }
+
+.trade-offs a { color: var(--apricot); text-decoration: underline; }
+
+@media (min-width: 881px) and (max-width: 1200px) {
+  .rail .brand { margin-left: 0; font-size: 1.45rem; }
+  .landing #quote-chat { bottom: 82px; }
+}
+@media (max-width: 880px) {
+  .playbar button { order: -1; }
+}
+@media (max-width: 600px) {
+  .landing .chat-launch {
+    width: 52px; height: 52px; padding: 0; gap: 0;
+    border-radius: 50%; font-size: 0;
+  }
+}
