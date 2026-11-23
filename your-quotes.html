@@ -8,9 +8,19 @@
 <link rel="icon" href="./assets/mark.svg" type="image/svg+xml">
 <link rel="stylesheet" href="./assets/site.css?v=5">
 <link rel="stylesheet" href="./assets/landing.css?v=5">
+<style>
+  .personal-quotes { min-height: 100vh; min-height: 100dvh; }
+  .personal-quotes .rail { background: var(--cream); color: var(--forest); }
+  .personal-quotes .paper-mark, .personal-quotes .rail small { color: var(--forest); }
+  .personal-quotes .rail nav a[aria-current], .personal-quotes .rail nav a:hover {
+    background: transparent;
+    text-decoration: underline;
+    text-underline-offset: .25em;
+  }
+</style>
 <script defer src="./assets/site.js"></script>
 </head>
-<body class="landing">
+<body class="landing personal-quotes">
 <a class="skip" href="#main">Skip to content</a>
 <header class="rail">
   <a class="brand" href="./index.html?v=5" aria-label="QuoteSide home"><span class="paper-mark" aria-hidden="true"></span>QuoteSide</a>
