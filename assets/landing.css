@@ -98,3 +98,17 @@
   .rail nav a { font-size: .84rem; padding-inline: 6px; }
   .workspace { padding-inline: 16px; }
 }
+
+.workspace .comparison { padding-bottom: 24px; }
+.workspace .quote-table { background: var(--card); border-radius: 12px; }
+.workspace .quote-table thead span { color: var(--apricot); }
+.workspace .quote-table tbody td:nth-child(3) { background: #f8f1e3; }
+.workspace .quote-table tbody tr.note td { background: #eee5d4; border-color: var(--cream); }
+.workspace .quote-table tbody tr.note.same td { background: #f1ecdf; }
+.workspace .guide { background: var(--forest); color: var(--card); border-radius: 12px; }
+.guide .broker-inner { padding: clamp(24px, 3vw, 38px); }
+@media (max-width: 600px) {
+  .rail { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .rail .brand { align-self: flex-start; }
+  .rail nav { flex-wrap: wrap; }
+}

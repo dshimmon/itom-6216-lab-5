@@ -7,20 +7,26 @@
 <title>Compare sample quotes — QuoteSide</title>
 <link rel="icon" href="./assets/mark.svg" type="image/svg+xml">
 <link rel="stylesheet" href="./assets/site.css">
+<link rel="stylesheet" href="./assets/landing.css">
 <script defer src="./assets/site.js"></script>
 </head>
-<body>
+<body class="landing">
 <a class="skip" href="#main">Skip to content</a>
-<header class="top wrap">
-  <a class="brand" href="./index.html" aria-label="QuoteSide home"><img src="./assets/mark.svg" alt="" width="34" height="34">QuoteSide</a>
-  <nav aria-label="Main"><a href="./index.html">Overview</a><a href="./compare.html" aria-current="page">Sample quotes <span aria-hidden="true">↗</span></a></nav>
+<header class="rail">
+  <a class="brand" href="./index.html" aria-label="QuoteSide home"><span class="paper-mark" aria-hidden="true"></span>QuoteSide</a>
+  <nav aria-label="Main">
+    <a href="./index.html">Overview</a>
+    <a href="./compare.html" aria-current="page">Sample quotes</a>
+    <a href="./your-quotes.html">Compare your quotes</a>
+  </nav>
+  <small>ITOM 6216 &nbsp;/&nbsp; Lab 5</small>
 </header>
-<main id="main">
-  <section class="wrap compare-intro" aria-labelledby="compare-title">
-    <h1 id="compare-title">Compare the quotes.</h1>
+<main id="main" class="workspace">
+  <section class="intro" aria-labelledby="compare-title">
+    <h1 id="compare-title">Sample quotes</h1>
     <p>Trinity Print House is a fictional Dallas print shop that owns its building and depends on its presses to fill orders. The shop is comparing two fictional annual property insurance quotes for the same location. Read across each row to see what changes, then use the explanations to plan what to ask a broker.</p>
   </section>
-  <section class="wrap comparison" id="quote-table" aria-labelledby="table-title">
+  <section class="comparison" id="quote-table" aria-labelledby="table-title">
     <div class="table-tools">
       <div><h2 id="table-title">Coverage at a glance</h2><p id="row-status" role="status">Fictional quotes · annual terms</p></div>
       <label class="toggle" hidden><input id="diff-toggle" type="checkbox" role="switch"><span>Show differences only</span></label>
@@ -33,8 +39,8 @@
     </table>
     <noscript><p>Enable JavaScript to view and filter the sample quotes.</p></noscript>
   </section>
-  <section class="broker" aria-labelledby="broker-title">
-    <div class="wrap broker-inner">
+  <section class="broker guide" aria-labelledby="broker-title">
+    <div class="broker-inner">
       <div><h2 id="broker-title">Ask your broker</h2><p>Use the actual policy wording and endorsements to confirm how each quote would respond.</p></div>
       <ul>
         <li>Can you show what we’d pay out of pocket for a covered hail claim?</li>
@@ -43,8 +49,8 @@
       </ul>
     </div>
   </section>
+  <footer class="case-footer"><span>Trinity Print House &nbsp;/&nbsp; Dallas, Texas</span><span>All businesses and quotes shown are fictional.</span></footer>
 </main>
-<footer><div class="wrap footer-inner"><strong>QuoteSide</strong><p>ITOM 6216 · Lab 5 · All businesses and quotes shown are fictional.</p></div></footer>
 <div id="quote-chat"></div>
 </body>
 </html>
