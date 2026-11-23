@@ -8,4 +8,4 @@ Open `index.html` locally. For GitHub Pages, put the contents of this folder at 
 
 ## Landing page video
 
-`assets/quote-demo.mp4` is the supplied Gemini-generated quote scan, approximately 10.03 seconds long. It highlights the business contents and business income limits from the same fictional quotes used in the comparison table. The poster is a frame from the clip that shows both highlighted rows. The video autoplays muted and loops inline, with a pause control and support for reduced motion.
+The supplied Insurance Quote Summary Video plays for 10.03 seconds. It illustrates how quotes from Apex Shield and Summit Crest turn into a comparison table. The adjacent limits panel, comparison page, and chatbot use the Trinity Print House sample quotes. The video autoplays muted and loops inline, with a pause control and support for reduced motion.
